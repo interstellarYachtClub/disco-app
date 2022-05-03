@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,900;1,200;1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  background-color: black;
+}
+
+.app-header {
+  height: 16vh;
+  background: gray;
+  clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
+  top: 0px;
+  left: 0px;
+}
+
+.logo-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: black;
+  font-weight: 300;
+}
+
+.logo {
+  height: 30px;
+}
+.heading {
+    left: 2%;
+    top: 50px;
+}
+
+.heading-primary {
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 45px;
+  color: white;
+}
+.heading-secondary {
+  font-weight: 200;
+  font-size: 16px;
+  color: white;
+  font-style: italic;
+  transform: translate(0, -50%);
+}
+
+.disco-artist-profiles {
+  height: 84vh;
+  width: 100vw;
+}
+
+.disco-artist-profile {
+  height: 20vh;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 9%, 100% 0, 100% 91%, 0 100%);
+}
+/* .disco-artist-header {
+  position: absolute;
+  width: 100vw;
+  left: 50%;
+  transform: translate(-15%, -50%);
+} */
+
+.disco-artist-name {
+  color: white;
+  position: relative;
+  left: 2%;
+  top: 80%;
+  transform: rotate(-2deg);
+}
+
+.disco-artist-stats {
+  color: lightgray;
+  position: relative;
+  text-align: right;
+  position: relative;
+  right: 2%;
+  top: 65%;
+  transform: rotate(-2deg);
+}
+
+
+
+.artist-disco-header {
+  height: 16vh;
+  background: gray;
+  clip-path: polygon(0 0, 100% 0, 100% 91%, 0 100%);
+  top: 0px;
+  left: 0px;
+}
+
+.disco-logo-icon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  font-weight: 300;
+}
+
+.disco-logo {
+  height: 20px;
+  fill: white;
+}
+.artist-disco-heading {
+  font-weight: 300;
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  top: 9%;
+  transform: rotate(-2deg);
+}
+
+.artist-disco-body {
+  color: white;
+}
